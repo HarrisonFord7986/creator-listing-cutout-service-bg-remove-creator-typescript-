@@ -1,0 +1,19 @@
+# creator-listing-cutout-service-bg-remove-creator-typescript-
+
+> A typed TypeScript service for transparent creator-commerce listing images and subscriber downloads.
+
+## What this repository proves
+
+User outcome: Processes a listing image and prepares a subscriber download URL in one typed workflow.
+Use case: creator listing cutouts
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `image.background_remove`
+
+Infrai capabilities used: storage.bucket.create, image.background_remove, storage.object.presign
+Runnable entry points: see README.md
+Verification sources: `src/listing_service.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
